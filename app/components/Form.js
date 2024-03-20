@@ -45,7 +45,7 @@ const Form = ({ type, buttonName }) => {
         value: 10,
       },
       max: {
-        message: "Максимум 10 символов",
+        message: "Максимум 15 символов",
         value: 15,
       },
     },
