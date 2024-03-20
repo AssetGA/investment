@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "apiEndpoint": "https://go-app-bot.vercel.app/api",
+  "isFireBase": false
+}

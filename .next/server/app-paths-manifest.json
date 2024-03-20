@@ -1,0 +1,5 @@
+{
+  "/cooperation/page": "app/cooperation/page.js",
+  "/about/page": "app/about/page.js",
+  "/about/point/page": "app/about/point/page.js"
+}
