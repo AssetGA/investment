@@ -101,7 +101,7 @@ const Form = ({ type, buttonName }) => {
     <>
       <div className="flex justify-center py-5 md:py-20">
         <button
-          className="bg-gradient-to-r from-indigo-500 hover:bg-blue-600 hover:text-white text-xl font-bold text-blue-200 rounded-md ring-4 hover:ring-lime-400 py-3 px-10 shadow-lg"
+          className="bg-gradient-to-r from-indigo-500 hover:bg-blue-600 hover:text-white text-xl font-bold text-black rounded-md ring-4 hover:ring-lime-400 py-3 px-10 shadow-lg"
           type="button"
           onClick={() => setShowModal(true)}
         >
