@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="my-24 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <p className="py-5 lg:py-0  px-2">
-          Игра GO - создана для семьи, друзей, близких.{" "}
+          Игра GO - создана для семьи, друзей, близких.
         </p>
         <p className="py-5 lg:py-0 px-2">
           Это командная стратегическая игра развивающая навыки, которые

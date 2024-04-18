@@ -34,17 +34,20 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <div className="flex flex-col translate-y-20">
         <h1 className="flex justify-center px-2 py-2 font-bold">START TIME</h1>
 
-        <p className="flex justify-center font-extrabold bg-orange-300 hover:bg-orange-100 p-4 ring-2 rounded-2xl">
+        <div
+          className="flex justify-center font-extrabold bg-orange-300 hover:bg-orange-100 p-4 ring-2 rounded-2xl"
+          suppressHydrationWarning={true}
+        >
           {targetTime > new Date().getTime()
             ? `${timeRemaining.days}d ${timeRemaining.hours}h ${timeRemaining.minutes}m ${timeRemaining.seconds}s`
             : "GO"}
-        </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

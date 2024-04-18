@@ -10,29 +10,19 @@ const Navbar = () => {
             {/* <Logo /> */}
             <ul className="hidden md:flex gap-x-6 text-white text-xl">
               <li className="p-1 px-4 rounded hover:text-emerald-500 text-emerald-600 hover:text-xl">
-                <Link href="/">
-                  <p>Главная</p>
-                </Link>
+                <Link href="/">Главная</Link>
               </li>
               <li className="py-1 px-4 rounded text-emerald-600 hover:text-emerald-500 hover:text-xl">
-                <Link href="/about">
-                  <p>О нас</p>
-                </Link>
+                <Link href="/about">О нас</Link>
               </li>
               <li className="py-1 px-4 rounded hover:bg-emerald-600">
-                <Link href="/cooperation">
-                  <p>Франшиза</p>
-                </Link>
+                <Link href="/cooperation">Франшиза</Link>
               </li>
               <li className="py-1 px-4 rounded hover:bg-emerald-600">
-                <Link href="/investment">
-                  <p>Инвестиции</p>
-                </Link>
+                <Link href="/investment">Инвестиции</Link>
               </li>
               <li className="py-1 px-4 rounded hover:bg-emerald-600">
-                <Link href="/contacts">
-                  <p>Контакты</p>
-                </Link>
+                <Link href="/contacts">Контакты</Link>
               </li>
             </ul>
           </div>

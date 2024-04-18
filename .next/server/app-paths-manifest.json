@@ -1,7 +1,7 @@
 {
-  "/cooperation/page": "app/cooperation/page.js",
+  "/page": "app/page.js",
+  "/contacts/page": "app/contacts/page.js",
   "/about/page": "app/about/page.js",
-  "/about/point/page": "app/about/point/page.js",
-  "/investment/page": "app/investment/page.js",
-  "/contacts/page": "app/contacts/page.js"
+  "/cooperation/page": "app/cooperation/page.js",
+  "/investment/page": "app/investment/page.js"
 }
