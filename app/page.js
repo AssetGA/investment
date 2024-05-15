@@ -5,10 +5,8 @@ export const metadata = {
   description: "Командно стратегическая игра для любителей активного отдыха",
   keywords: "Игра, стратегическая, коммандная, движение, go, кси",
   robots: "index, follow",
-  name: "google-site-verification",
-  content: "llKqjOUP6U9uLUC3o_Xyp9jHfTS53I0gRJ4UrxWiGoU",
+  "google-site-verification": "llKqjOUP6U9uLUC3o_Xyp9jHfTS53I0gRJ4UrxWiGoU",
 };
-
 export default function Home() {
   return (
     <>
