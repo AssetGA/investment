@@ -17,7 +17,7 @@ export default function Page() {
       </div>
 
       <div className="my-32 grid text-center lg:max-w-5xl lg:text-left">
-        <CopyButton text="goanddoit2024@gmail.com" />
+        <CopyButton text="417051@mail.ru" />
       </div>
     </>
   );
